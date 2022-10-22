@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: #f5f7fb;
+}
+
+.entrypage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.entrypage--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #293264;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.desc {
+  color: #293264;
+  font-weight: 400;
+  margin-bottom: 2em;
+}
+
+.startbtn,
+.checkans {
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  border: 0;
+  padding: 1.5em 3.5em;
+  border-radius: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.quizpage {
+  box-sizing: border-box;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2em 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.opt--selected {
+  background-color: #d6dbf5;
+}
+
+.opt--correct--alt {
+  background-color: #fbf4a7;
+}
+
+.opt--correct {
+  background-color: #b0ecbd;
+}
+
+.opt--incorrect {
+  background-color: #f8bcbc;
+}
+
+.points {
+  font-weight: 700;
+  color: #293264;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+input,
+textarea,
+button,
+select,
+a,
+div {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.points{
+  font-weight: 700;
+  color: #293264;
+  margin-top: 10px ;
+}
